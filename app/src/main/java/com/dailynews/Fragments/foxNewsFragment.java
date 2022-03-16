@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 import com.dailynews.R;
+import com.dailynews.webViewController;
 
 
 public class foxNewsFragment extends Fragment {
@@ -23,6 +24,7 @@ public class foxNewsFragment extends Fragment {
 
         WebView webView = root.findViewById(R.id.webViewFox);
         webView.loadUrl("https://www.foxnews.com");
+        webView.setWebViewClient(new webViewController());
 
         return  root;
     }

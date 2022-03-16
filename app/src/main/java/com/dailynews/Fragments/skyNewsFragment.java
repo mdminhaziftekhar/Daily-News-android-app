@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 import com.dailynews.R;
+import com.dailynews.webViewController;
 
 
 public class skyNewsFragment extends Fragment {
@@ -22,6 +23,7 @@ public class skyNewsFragment extends Fragment {
 
         WebView webView = root.findViewById(R.id.webViewSky);
         webView.loadUrl("https://news.sky.com");
+        webView.setWebViewClient(new webViewController());
 
         return root;
     }

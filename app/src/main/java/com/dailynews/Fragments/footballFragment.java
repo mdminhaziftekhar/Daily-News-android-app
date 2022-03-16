@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 import com.dailynews.R;
+import com.dailynews.webViewController;
 
 public class footballFragment extends Fragment {
 
@@ -21,6 +22,7 @@ public class footballFragment extends Fragment {
 
         WebView webView = root.findViewById(R.id.webViewFootball);
         webView.loadUrl("https://onefootball.com/en/home");
+        webView.setWebViewClient(new webViewController());
 
         return root;
     }

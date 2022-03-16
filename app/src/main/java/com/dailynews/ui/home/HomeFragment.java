@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.dailynews.R;
 import com.dailynews.databinding.FragmentHomeBinding;
+import com.dailynews.webViewController;
 
 public class HomeFragment extends Fragment {
 
@@ -25,6 +26,7 @@ public class HomeFragment extends Fragment {
 
         WebView webView = root.findViewById(R.id.webViewBBC);
         webView.loadUrl("https://www.bbc.com/news");
+        webView.setWebViewClient(new webViewController());
 
         return root;
     }

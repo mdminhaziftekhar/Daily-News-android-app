@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.dailynews.R;
 import com.dailynews.databinding.FragmentSlideshowBinding;
+import com.dailynews.webViewController;
 
 public class SlideshowFragment extends Fragment {
 
@@ -26,6 +27,8 @@ public class SlideshowFragment extends Fragment {
         WebView webView = root.findViewById(R.id.webViewCNN);
 
         webView.loadUrl("https://edition.cnn.com/world");
+
+        webView.setWebViewClient(new webViewController());
 
         return root;
     }

@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.dailynews.R;
 import com.dailynews.databinding.FragmentGalleryBinding;
+import com.dailynews.webViewController;
 
 public class GalleryFragment extends Fragment {
 
@@ -24,6 +25,7 @@ public class GalleryFragment extends Fragment {
 
         WebView webView = root.findViewById(R.id.webViewAlj);
         webView.loadUrl("https://www.aljazeera.com");
+        webView.setWebViewClient(new webViewController());
 
        return root;
     }
