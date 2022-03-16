@@ -8,18 +8,33 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.dailynews.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/bbc"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.dailynews.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/aljazera"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.dailynews.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/cnn"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/foxNewsFragment"
+        android:name="com.dailynews.Fragments.foxNewsFragment"
+        android:label="@string/fox_news"
+        tools:layout="@layout/fragment_fox_news" />
+    <fragment
+        android:id="@+id/skyNewsFragment"
+        android:name="com.dailynews.Fragments.skyNewsFragment"
+        android:label="@string/sky_news"
+        tools:layout="@layout/fragment_sky_news" />
+    <fragment
+        android:id="@+id/footballFragment"
+        android:name="com.dailynews.Fragments.footballFragment"
+        android:label="@string/football"
+        tools:layout="@layout/fragment_football" />
 </navigation>

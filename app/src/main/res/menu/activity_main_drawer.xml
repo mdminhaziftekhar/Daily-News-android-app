@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:menuCategory="secondary"
+            android:title="@string/bbc" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:menuCategory="secondary"
+            android:title="@string/aljazera" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:menuCategory="secondary"
+            android:title="@string/cnn" />
+        <item
+            android:id="@+id/foxNewsFragment"
+            android:menuCategory="secondary"
+            android:title="@string/fox_news" />
+        <item
+            android:id="@+id/skyNewsFragment"
+            android:menuCategory="secondary"
+            android:title="@string/sky_news" />
+        <item
+            android:id="@+id/footballFragment"
+            android:menuCategory="secondary"
+            android:title="@string/football" />
     </group>
+
+    <item
+        android:menuCategory="secondary"
+        android:title="@string/upcoming">
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:menuCategory="secondary"
+                android:title="@string/new_york_times"></item>
+        </menu>
+    </item>
 </menu>
