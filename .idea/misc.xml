@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/content_main.xml" value="0.20729166666666668" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/fragment_football.xml" value="0.10960144927536232" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/fragment_fox_news.xml" value="0.10960144927536232" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/fragment_sky_news.xml" value="0.10960144927536232" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/layout/nav_header_main.xml" value="0.22" />
+        <entry key="..\:/Documents/Android Projects/Daily News/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
       </map>
     </option>
   </component>
